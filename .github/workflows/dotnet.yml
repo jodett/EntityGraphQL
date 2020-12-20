@@ -30,7 +30,7 @@ jobs:
       # uses: tanaka-takayoshi/nuget-publish-to-github-packages-action@462b6006e5c90f732d030b0ace2c3e7ee9d550bc
       uses: tanaka-takayoshi/nuget-publish-to-github-packages-action@v2.1
       with:
-        nupkg-path:  './artifacts/*.nupkg'
+        nupkg-path:  './src/EntityGraphQL/bin/Release/*.nupkg'
         repo-owner:  'jodett'
         gh-user:  'jodett'
         token:  ${{ secrets.GITHUB_TOKEN }}
