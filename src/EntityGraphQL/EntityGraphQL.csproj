@@ -2,10 +2,10 @@
   <PropertyGroup>
     <TargetFramework>netstandard1.6</TargetFramework>
     <AssemblyName>EntityGraphQL</AssemblyName>
-    <PackageId>EntityGraphQL</PackageId>
+    <PackageId>jdEntityGraphQL</PackageId>
     <PackageVersion>0.68.0</PackageVersion>
-    <Description>A GraphQL library for .NET Core. Compiles queries into .NET Expressions (LinqProvider) for runtime execution against object graphs. E.g. against an ORM data model (EntityFramework or others) or just an in-memory object.</Description>
-    <Authors>Luke Murray</Authors>
+    <Description>A GraphQL library for .NET Core. All Honor goes to Luke Murray https://github.com/lukemurray/EntityGraphQL i just updated some dependencies</Description>
+    <Authors>Joachim Dettbarn</Authors>
     <PackageProjectUrl>https://github.com/jodett/EntityGraphQL</PackageProjectUrl>
     <PackageTags>GraphQL;data query;expression;language</PackageTags>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
